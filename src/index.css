@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[url('./img/bg-light.jpg')] bg-cover bg-left dark:bg-[url('./img/bg-dark.jpg')];
+}
+.main-content {
+  @apply bg-slate-200 mt-2 w-10/12 mx-auto rounded-lg text-black p-5 md:w-9/12 md:me-16 md:mt-4 lg:w-9/12 lg:me-[105px] animate-[fade-in_1s_ease-in-out] dark:bg-slate-800 dark:text-white;
+}
+.active {
+  @apply bg-gradient-to-r from-blue-500 to-lime-500;
+}
