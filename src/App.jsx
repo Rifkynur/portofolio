@@ -4,6 +4,7 @@ import FooterComponent from "./Component/FooterComponent";
 import AboutPages from "./pages/AboutPages";
 import ContactPage from "./pages/ContactPage";
 import SkillPage from "./pages/skillPage";
+import PortoPage from "./pages/PortoPage";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path="/" Component={AboutPages}></Route>
             <Route path="/contact" Component={ContactPage}></Route>
             <Route path="/skill" Component={SkillPage}></Route>
+            <Route path="/porto" Component={PortoPage}></Route>
           </Routes>
         </div>
         <FooterComponent />

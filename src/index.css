@@ -1,13 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+:root {
+  --light: #f57d1f;
+  --dark: #00e5fb;
+  --primary: #d1d5db;
+  --secondary: #9ca3af;
+}
 body {
-  @apply bg-[url('./img/bg-light.jpg')] bg-cover bg-left dark:bg-[url('./img/bg-dark.jpg')];
+  @apply bg-[url('/img/bg-light-2.jpg')] bg-cover bg-right md:bg-center dark:bg-[url('/img/bg-dark.jpg')] dark:bg-center;
 }
 .main-content {
-  @apply bg-slate-200 mt-2 w-10/12 mx-auto rounded-lg text-black p-5 md:w-9/12 md:me-16 md:mt-4 lg:w-9/12 lg:me-[105px] animate-[fade-in_1s_ease-in-out] dark:bg-slate-800 dark:text-white;
+  @apply bg-gray-300  mt-2 w-10/12 mx-auto rounded-lg text-black p-5 md:w-9/12 md:me-16 md:mt-4 lg:w-9/12 lg:me-[105px] animate-[fade-in_1s_ease-in-out] dark:bg-slate-800 dark:text-white dark:shadow-none;
 }
 .active {
-  @apply bg-gradient-to-r from-blue-500 to-lime-500;
+  @apply bg-gradient-to-r from-slate-500 to-slate-50 shadow-[0_0_5px_#000] dark:bg-gradient-to-r dark:shadow-[0_0_2px_#d1d5db] dark:from-slate-300  dark:to-slate-500;
+}
+.timeline {
+  @apply before:w-[10px] before:h-[10px] before:rounded-full before:absolute before:bg-light dark:before:bg-dark before:top-[15px] before:-left-[21px] after:h-0 after:w-0 after:top-3 after:-left-[6px] after:border-t-[8px] after:border-t-transparent  after:border-b-[8px] after:border-b-transparent  after:border-r-[8px] after:border-secondary after:absolute dark:after:border-r-slate-600;
+}
+.border-animation {
+  @apply before:w-[200%] before:h-[200%] before:bg-[conic-gradient(var(--light)_0deg,transparent_60deg,transparent_180deg,var(--light)_180deg,transparent_240deg)] before:absolute  before:inset-[-50%] before:animate-borderSpin before:z-[-2] after:absolute after:inset-1 after:bg-secondary after:z-[-1] after:rounded-md dark:before:bg-[conic-gradient(var(--dark)_0deg,transparent_60deg,transparent_180deg,var(--dark)_180deg,transparent_240deg)] dark:after:bg-slate-700;
 }

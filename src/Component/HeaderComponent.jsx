@@ -3,10 +3,10 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 function HeaderComponent() {
   return (
     <>
-      <div className="w-10/12 mx-auto bg-slate-200  text-slate-800 relative mt-10 rounded-xl md:flex md:justify-between md:items-center lg:justify-evenly dark:bg-slate-800 dark:text-white">
+      <div className="w-10/12 mx-auto bg-primary text-slate-800 relative mt-10 rounded-xl md:flex md:justify-between md:items-center lg:justify-evenly dark:bg-slate-800 dark:text-white">
         <div className="header-left">
           <div className="mx-auto absolute left-0 right-0 -top-8 md:right-full md:bottom-0 md:top-0 lg:-top-9">
-            <div className="p-1 w-16 mx-auto bg-slate-200 rounded-full  md:pt-5 md:ms-2 md:w-20 lg:w-36 lg:p-3 dark:bg-slate-800">
+            <div className="p-1 w-16 mx-auto bg-primary rounded-full  md:pt-5 md:ms-2 md:w-20 lg:w-36 lg:p-3 dark:bg-slate-800">
               <img src="./img/Takimm.jpg" alt="" className="w-16 top-0 mx-auto rounded-full md:w-40" />
             </div>
           </div>
@@ -37,7 +37,7 @@ function HeaderComponent() {
             </ul>
           </div>
         </div>
-        <div className="header-right flex py-5 justify-evenly border-t-slate-800 border-t-2 md:border-none md:p-10 md:before:block md:before:w-[2px] md:before:h-10 md:before:me-10 md:before:bg-slate-800 lg:before:h-16 dark:border-t-slate-300 dark:md:before:bg-slate-300 ">
+        <div className="header-right flex py-5 justify-evenly border-t-light border-t-2 md:border-none md:p-10 md:before:block md:before:w-[2px] md:before:h-10 md:before:me-10 md:before:bg-light lg:before:h-16 dark:border-t-dark dark:md:before:bg-dark ">
           <div className="text-xs">
             <h4 className="font-bold md:text-lg lg:text-xl text-slate-900 dark:text-white">Email</h4>
             <p className="text-[10px] text-slate-600 lg:text-base dark:text-slate-400">ythrifky619@gmail.com</p>
