@@ -1,8 +1,5 @@
 import React from "react";
-import { FaUser, FaTools } from "react-icons/fa";
-import { IoDocument } from "react-icons/io5";
-import { RiContactsBook2Fill } from "react-icons/ri";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavList = ({ patch, icon, title }) => {
   return (

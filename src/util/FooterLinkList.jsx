@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const FooterLinkList = ({ icon, title, patch, target }) => {
+const FooterLinkList = ({ data }) => {
   return (
     <div className="text-xs md:text-sm lg:text-base">
-      <Link to={patch} target={target} className="flex gap-4 items-center my-1 ">
-        <span className="">{icon}</span>
-        <span className="">{title}</span>
+      <Link to={data.patch} target={data.target} className="flex gap-4 items-center my-1 hover:text-dark ">
+        <span>{data.icon}</span>
+        <span>{data.title}</span>
       </Link>
     </div>
   );
