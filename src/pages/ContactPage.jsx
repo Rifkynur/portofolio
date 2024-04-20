@@ -15,7 +15,7 @@ function ContactPage() {
         <h3 className="text-xs text-center font-bold md:text-lg">Contact Form</h3>
         <input type="email" name="email" placeholder="Email" className="p-2 text-xs rounded-md outline-none md:text-lg dark:bg-slate-600" required autoComplete="off" />
         <input type="text" name="subject" placeholder="Subject" className=" p-2 text-xs rounded-md outline-none md:text-lg dark:bg-slate-600" required autoComplete="off" />
-        <input type="hidden" name="_next" value="http://localhost:5173/" />
+        <input type="hidden" name="_next" value="https://portofolio-rifkynur.vercel.app" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
         <textarea name="message" cols="20" rows="4" placeholder="Masukan Pesan Anda" className="p-2 text-xs rounded-md outline-none resize-none md:text-lg dark:bg-slate-600" required></textarea>

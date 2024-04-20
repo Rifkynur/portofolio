@@ -13,7 +13,7 @@ function HeaderComponent() {
           </div>
           <div className="text-center pt-10 pb-3 md:pt-5 md:ps-24 md:text-left">
             <h3 className="text-md font-bold lg:text-2xl">RIFKI NUR HIDAYAT</h3>
-            <h5 className="text-xs text-slate-700 lg:text-lg dark:text-slate-400">Front End Developer</h5>
+            <h4 className="text-xs text-slate-700 lg:text-lg dark:text-slate-400">Front End Developer</h4>
             <HeaderSocial />
           </div>
         </div>

@@ -71,7 +71,7 @@ export const nonformalEducation = [
   },
   {
     school: "Binar Academy",
-    timeRange: "Feb 2023 - Jun 2023",
+    timeRange: "Feb 2024 - sekarang",
     desc: "FrontEnd Engineer, React js",
   },
 ];

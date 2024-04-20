@@ -8,7 +8,7 @@ const HeaderSocial = () => {
       {headerSocial.map((data, index) => {
         return (
           <li key={index} className={`mx-1 hover:text-light dark:hover:text-dark`}>
-            <Link to={data.patch} target="_blank">
+            <Link to={data.patch} target="_blank" aria-label={data.title}>
               {data.icon}
             </Link>
           </li>

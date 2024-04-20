@@ -3,7 +3,7 @@ import React from "react";
 const FooterHeader = () => {
   return (
     <div>
-      <h5 className="text-dark font-bold lg:text-xl">RIFKI NUR HIDAYAT</h5>
+      <h3 className="text-dark font-bold lg:text-xl">RIFKI NUR HIDAYAT</h3>
       <p className="text-slate-300 lg:text-lg">FrontEnd Developer</p>
     </div>
   );
