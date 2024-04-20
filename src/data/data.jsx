@@ -65,14 +65,14 @@ export const formalEducation = [
 ];
 export const nonformalEducation = [
   {
-    school: "Dicoding-FrontEnd",
-    timeRange: "Okt 2023",
-    desc: "Belajar front-end web untuk pemula",
-  },
-  {
     school: "Binar Academy",
     timeRange: "Feb 2024 - sekarang",
     desc: "FrontEnd Engineer, React js",
+  },
+  {
+    school: "Dicoding-FrontEnd",
+    timeRange: "Okt 2023",
+    desc: "Belajar front-end web untuk pemula",
   },
 ];
 export const experience = [
