@@ -127,6 +127,16 @@ export const portofolio = [
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/course.PNG",
   },
+  {
+    id: 2,
+    ghLink: "https://github.com/Rifkynur/portofolio",
+    demoLink: "https://portofolio-rifkynur.vercel.app/",
+    title: "Personal Portofolio Website",
+    tool: ["React", "Bootstrap"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/porto.PNG",
+  },
 ];
 
 export const skill = [
