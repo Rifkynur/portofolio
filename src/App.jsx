@@ -7,7 +7,7 @@ import SkillPage from "./pages/skillPage";
 import PortoPage from "./pages/PortoPage";
 import { Routes, Route } from "react-router-dom";
 import NotFound from "./pages/NotFound";
-import ThanksPage from "./pages/ThanksPage";
+// import ThanksPage from "./pages/ThanksPage";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
               <Route path="/contact" Component={ContactPage}></Route>
               <Route path="/skill" Component={SkillPage}></Route>
               <Route path="/porto" Component={PortoPage}></Route>
-              <Route path="/thanks" Component={ThanksPage}></Route>
+              {/* <Route path="/thanks" Component={ThanksPage}></Route> */}
               <Route path="*" Component={NotFound}></Route>
             </Routes>
           </div>
