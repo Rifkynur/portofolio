@@ -1,9 +1,11 @@
 import Title from "../util/Title";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+
 function ContactPage() {
   useEffect(() => {
     document.title = "Contact";
   });
+
   return (
     <div className="main-content ">
       <Title title="Contact Me" />

@@ -6,24 +6,23 @@ function NavbarComponent() {
   const [dark, setDark] = useState(false);
   const roller = useRef("");
 
-  const darkMode = () => {
+  const setToggleDark = (isDark) => {
     const html = document.querySelector("html");
-    html.classList.toggle("dark");
-    setDark(!dark);
-    localStorage.setItem("theme", dark);
-    console.log(`state saat ini ${dark}`);
+    html.classList.toggle("dark", isDark);
+    setDark(isDark);
+    localStorage.setItem("theme", isDark ? "dark" : "light");
   };
+  // console.log(`state saat ini ${dark}`);
 
-  // useEffect(() => {
-  //   if (localStorage.getItem("theme") === true) {
-  //     setDark(!dark);
-  //   }
-  //   setDark(dark);
-  // }, [dark]);
+  useEffect(() => {
+    const isSavedDark = localStorage.getItem("theme") === "dark";
+    setToggleDark(isSavedDark);
+  }, []);
+
   return (
     <>
       <NavbarList />
-      <DarkModeToggle darkMode={darkMode} ref={roller} dark={dark} />
+      <DarkModeToggle setToggleDark={setToggleDark} ref={roller} dark={dark} />
     </>
   );
 }
