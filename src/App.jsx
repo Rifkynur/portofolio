@@ -15,16 +15,17 @@ function App() {
       <div className="min-h-screen flex flex-col justify-between">
         <div>
           <HeaderComponent />
-          <div className="md:flex md:justify-start md:gap-4 md:items-start h-full">
+          <div className="w-10/12 mx-auto md:flex md:gap-5 md:items-start h-full">
             <NavbarComponent />
-            <Routes>
-              <Route path="/" Component={AboutPages}></Route>
-              <Route path="/contact" Component={ContactPage}></Route>
-              <Route path="/skill" Component={SkillPage}></Route>
-              <Route path="/porto" Component={PortoPage}></Route>
-              {/* <Route path="/thanks" Component={ThanksPage}></Route> */}
-              <Route path="*" Component={NotFound}></Route>
-            </Routes>
+            <div className="w-full ">
+              <Routes>
+                <Route path="/" Component={AboutPages}></Route>
+                <Route path="/contact" Component={ContactPage}></Route>
+                <Route path="/skill" Component={SkillPage}></Route>
+                <Route path="/porto" Component={PortoPage}></Route>
+                <Route path="*" Component={NotFound}></Route>
+              </Routes>
+            </div>
           </div>
         </div>
         <FooterComponent />
