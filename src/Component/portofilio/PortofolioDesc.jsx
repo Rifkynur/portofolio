@@ -12,7 +12,7 @@ const PortofolioDesc = ({ img, title, tool }) => {
         <div className="flex flex-w gap-1 mt-2">
           {tool.map((item, i) => {
             return (
-              <span key={i} className=" border-[2px] font-bold text-[6px] py-[2px] px-1 rounded-full text-light border-light dark:text-dark dark:border-dark md:text-[10px] lg:text-sm">
+              <span key={i} className=" bg-light dark:bg-dark text-black border-[2px] font-bold text-[6px] py-[2px] px-1 rounded-lg border-black  md:text-[10px] lg:text-sm">
                 {item}
               </span>
             );

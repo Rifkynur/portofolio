@@ -2,6 +2,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaUser, FaTools, FaExter
 // import { FaUser, FaTools } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
 import { RiContactsBook2Fill } from "react-icons/ri";
+
+// data social media
 export const headerSocial = [
   {
     title: "Facebook",
@@ -28,6 +30,8 @@ export const headerSocial = [
     icon: <FaGithub />,
   },
 ];
+
+// data navbar
 export const navbarList = [
   {
     patch: "/",
@@ -51,6 +55,7 @@ export const navbarList = [
   },
 ];
 
+// data formal education
 export const formalEducation = [
   {
     school: "SMKN 2 Klaten",
@@ -63,6 +68,8 @@ export const formalEducation = [
     desc: "Wedi Klaten",
   },
 ];
+
+// data nonformal education
 export const nonformalEducation = [
   {
     school: "Binar Academy",
@@ -75,6 +82,8 @@ export const nonformalEducation = [
     desc: "Belajar front-end web untuk pemula",
   },
 ];
+
+// data experience
 export const experience = [
   {
     school: "Pt.Honda Prospect Motor",
@@ -83,6 +92,7 @@ export const experience = [
   },
 ];
 
+// data footer
 export const footerNavigation = [
   {
     title: "About",
@@ -106,6 +116,7 @@ export const footerNavigation = [
   },
 ];
 
+// data portofolio
 export const portofolio = [
   {
     id: 1,
@@ -137,8 +148,19 @@ export const portofolio = [
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/porto.PNG",
   },
+  {
+    id: 3,
+    ghLink: "https://github.com/Rifkynur/BCR-Binar_Rental_Car",
+    demoLink: "https://bcr-binar-rental-car.vercel.app/",
+    title: "Binar Rental Car",
+    tool: ["React", "Bootstrap"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/binar.PNG",
+  },
 ];
 
+// data skill
 export const skill = [
   {
     id: 1,

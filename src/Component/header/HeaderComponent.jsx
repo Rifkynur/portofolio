@@ -7,7 +7,7 @@ function HeaderComponent() {
       <div className="w-10/12 mx-auto bg-primary text-slate-800 relative mt-10 rounded-xl md:flex md:justify-between md:items-center lg:justify-evenly dark:bg-slate-800 dark:text-white">
         <div className="header-left">
           <div className="mx-auto absolute left-0 right-0 -top-8 md:right-full md:bottom-0 md:top-0 lg:-top-9">
-            <div className="p-1 w-16 mx-auto bg-primary rounded-full  md:pt-5 md:ms-2 md:w-20 lg:w-36 lg:p-3 dark:bg-slate-800">
+            <div className="p-1 h-16 w-16 mx-auto bg-primary rounded-full  md:pt-5 md:ms-2 md:w-20 md:h-20 lg:w-36 lg:h-36 lg:p-3 dark:bg-slate-800">
               <img src="./img/pp.jpg" alt="" className="w-16 top-0 mx-auto rounded-full md:w-40" />
             </div>
           </div>
