@@ -15,7 +15,7 @@ function App() {
       <div className="min-h-screen flex flex-col justify-between">
         <div>
           <HeaderComponent />
-          <div className="w-10/12 mx-auto md:flex md:gap-5 md:items-start h-full">
+          <div className="w-10/12 mx-auto md:flex md:gap-4 md:items-start h-full">
             <NavbarComponent />
             <div className="w-full ">
               <Routes>

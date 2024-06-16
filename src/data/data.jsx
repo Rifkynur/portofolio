@@ -158,6 +158,16 @@ export const portofolio = [
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/binar.PNG",
   },
+  {
+    id: 4,
+    ghLink: "https://github.com/Rifkynur/clone-youtube",
+    demoLink: "https://clone-youtube-indol-five.vercel.app/",
+    title: "Clone Youtube",
+    tool: ["React"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/cloneYt.PNG",
+  },
 ];
 
 // data skill
