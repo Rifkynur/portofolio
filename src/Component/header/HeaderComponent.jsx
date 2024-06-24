@@ -8,7 +8,7 @@ function HeaderComponent() {
         <div className="header-left">
           <div className="mx-auto absolute left-0 right-0 -top-8 md:right-full md:bottom-0 md:top-0 lg:-top-9">
             <div className="p-1 h-16 w-16 mx-auto bg-primary rounded-full  md:pt-5 md:ms-2 md:w-20 md:h-20 lg:w-36 lg:h-36 lg:p-3 dark:bg-slate-800">
-              <img src="./img/pp.jpg" alt="" className="w-16 top-0 mx-auto rounded-full md:w-40" />
+              <img src="./img/pp.webp" alt="" className="w-16 top-0 mx-auto rounded-full md:w-40" />
             </div>
           </div>
           <div className="text-center pt-10 pb-3 md:pt-5 md:ps-24 md:text-left">

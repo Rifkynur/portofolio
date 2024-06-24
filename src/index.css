@@ -8,7 +8,7 @@
   --secondary: #9ca3af;
 }
 body {
-  @apply bg-[url('/img/bg-light-2.jpg')] bg-cover bg-right md:bg-center dark:bg-[url('/img/bg-dark.jpg')] dark:bg-center;
+  @apply bg-[url('/img/bg-light-2.webp')] bg-cover bg-right md:bg-center dark:bg-[url('/img/bg-dark.webp')] dark:bg-center;
 }
 .main-content {
   @apply bg-gray-300 w-full mt-2 rounded-lg text-black p-5 md:mt-4 animate-[fade-in_1s_ease-in-out] dark:bg-slate-800 dark:text-white dark:shadow-none;
