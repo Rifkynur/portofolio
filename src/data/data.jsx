@@ -73,7 +73,7 @@ export const formalEducation = [
 export const nonformalEducation = [
   {
     school: "Binar Academy",
-    timeRange: "Feb 2024 - sekarang",
+    timeRange: "Feb 2024 - juni 2024",
     desc: "FrontEnd Engineer, React js",
   },
   {
@@ -130,13 +130,13 @@ export const portofolio = [
   },
   {
     id: 2,
-    ghLink: "https://github.com/Rifkynur/course",
-    demoLink: "https://rifky-course.vercel.app/",
-    title: "Landing Page Course",
+    ghLink: "https://github.com/Rifkynur/templatePodcast",
+    demoLink: "https://template-podcast.vercel.app",
+    title: "Landing Page Podcast and Blog",
     tool: ["React", "Bootstrap"],
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
-    img: "./img/porto/course.PNG",
+    img: "./img/porto/podcast.PNG",
   },
   {
     id: 2,
@@ -202,4 +202,9 @@ export const skill = [
     title: "react",
     img: "./img/skill/structure.png",
   },
+  // {
+  //   id: 7,
+  //   title: "Scss",
+  //   img: "./img/skill/sass.png",
+  // },
 ];

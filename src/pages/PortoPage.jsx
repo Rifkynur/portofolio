@@ -11,7 +11,7 @@ const PortoPage = () => {
   return (
     <div className="main-content">
       <Title title="Portofolio" />
-      <div className="flex gap-8 flex-wrap mt-5 relative mx-auto ">
+      <div className="flex gap-8 flex-wrap mt-5 relative mx-auto lg:mt-10 ">
         {portofolio.map((data, i) => {
           return <PortofolioCard data={data} key={i} />;
         })}
