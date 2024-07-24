@@ -175,36 +175,36 @@ export const skill = [
   {
     id: 1,
     title: "html",
-    img: "./img/skill/html-5.png",
+    img: "./img/skill/svg/html.svg",
   },
   {
     id: 2,
     title: "css",
-    img: "./img/skill/social.png",
+    img: "./img/skill/svg/css.svg",
   },
   {
     id: 3,
     title: "bootstrap",
-    img: "./img/skill/bootstrap.png",
+    img: "./img/skill/svg/bootstrap.svg",
   },
   {
     id: 4,
     title: "tailwind",
-    img: "./img/skill/tailwind-css-icon.png",
+    img: "./img/skill/svg/tailwind.svg",
   },
   {
     id: 5,
     title: "javascript",
-    img: "./img/skill/java-script.png",
+    img: "./img/skill/svg/javascript.svg",
   },
   {
     id: 6,
     title: "react",
-    img: "./img/skill/structure.png",
+    img: "./img/skill/svg/react.svg",
   },
-  // {
-  //   id: 7,
-  //   title: "Scss",
-  //   img: "./img/skill/sass.png",
-  // },
+  {
+    id: 7,
+    title: "Next js",
+    img: "./img/skill/svg/next.svg",
+  },
 ];

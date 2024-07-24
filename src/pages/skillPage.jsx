@@ -12,7 +12,7 @@ function SkillPage() {
       <Title title="My Skill" />
       <div
         className="flex flex-wrap items-center justify-around gap-5 text-center mt-5 lg:mt-10
-      lg:justify-evenly "
+      lg:justify-start lg:gap-12 lg:px-10 "
       >
         {skill.map((data) => {
           return <CardSkill img={data.img} title={data.title} key={data.id} />;
