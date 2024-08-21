@@ -86,6 +86,11 @@ export const nonformalEducation = [
 // data experience
 export const experience = [
   {
+    school: "Ragaku Studio",
+    timeRange: "Jul 2024 - Sep 2024",
+    desc: "Building Website Sokola Digital Using Next Js",
+  },
+  {
     school: "Pt.Honda Prospect Motor",
     timeRange: "Nov 2019 - Nov 2022",
     desc: "Leica Measurement Operator",
