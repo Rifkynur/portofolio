@@ -204,11 +204,21 @@ export const skill = [
   },
   {
     id: 6,
-    title: "react",
-    img: "./img/skill/svg/react.svg",
+    title: "typescript",
+    img: "./img/skill/svg/typescript.svg",
   },
   {
     id: 7,
+    title: "react js",
+    img: "./img/skill/svg/react.svg",
+  },
+  {
+    id: 8,
+    title: "react native",
+    img: "./img/skill/svg/react.svg",
+  },
+  {
+    id: 9,
     title: "Next js",
     img: "./img/skill/svg/next.svg",
   },

@@ -4,8 +4,8 @@ import { portofolio } from "../../data/data";
 const PortofolioDesc = ({ img, title, tool }) => {
   return (
     <div>
-      <div className="w-full h-[60px] object-cover md:h-[100px] lg:h-[120px]">
-        <img src={img} alt="dentist" className="h-full w-full" />
+      <div className="w-full h-[60px] object-cover md:h-[100px] lg:h-[150px]">
+        <img src={img} alt="dentist" className=" w-full h-40" />
       </div>
       <div className="p-1 flex flex-col justify-between md:p-2 md:h-[75px] lg:h-[110px]">
         <h3 className="text-[10px] font-bold mt-1 max-w-full lg:text-lg">{title}</h3>

@@ -7,7 +7,7 @@ function ContactPage() {
   });
 
   return (
-    <div className="main-content ">
+    <div className="main-content w-full ">
       <Title title="Contact Me" />
       <form
         action="https://formsubmit.co/ythrifky619@gmail.com"
