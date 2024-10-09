@@ -173,6 +173,16 @@ export const portofolio = [
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/cloneYt.PNG",
   },
+  {
+    id: 5,
+    ghLink: "https://github.com/Rifkynur/shopping-cart",
+    demoLink: "https://shopping-cart-coral-omega.vercel.app/",
+    title: "Clone Youtube",
+    tool: ["React", "Tailwind", "Zustand"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/shoppingCart.PNG",
+  },
 ];
 
 // data skill
