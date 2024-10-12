@@ -1,14 +1,17 @@
-import React from "react";
 import FooterLinkList from "../../util/FooterLinkList";
 import { headerSocial } from "../../data/data";
+import EachUtils from "../../util/EachUtils";
 
 const FooterSocial = () => {
   return (
     <div>
       <h3 className="text-sm font-semibold mb-2 md:text-base lg:text-lg">Social Media</h3>
-      {headerSocial.map((data, i) => {
-        return <FooterLinkList key={i} data={data} />;
-      })}
+      <EachUtils
+        of={headerSocial}
+        render={(data) => {
+          return <FooterLinkList data={data} />;
+        }}
+      />
     </div>
   );
 };

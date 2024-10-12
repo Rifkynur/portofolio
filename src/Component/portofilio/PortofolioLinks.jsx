@@ -1,4 +1,3 @@
-import React from "react";
 import PortofolioLink from "./PortofolioLink";
 
 const PortofolioLinks = ({ data }) => {

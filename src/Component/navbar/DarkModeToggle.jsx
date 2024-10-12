@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
 import { FaRegMoon } from "react-icons/fa";
 import { IoIosSunny } from "react-icons/io";
 

@@ -1,5 +1,3 @@
-import React from "react";
-
 const FooterBottom = () => {
   return (
     <div className="flex flex-col justify-center items-center mt-8 text-xs md:text-base">

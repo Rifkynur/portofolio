@@ -1,5 +1,3 @@
-import React from "react";
-
 const FooterInformation = () => {
   return (
     <div>
@@ -8,12 +6,12 @@ const FooterInformation = () => {
         <li>Wedi-Klaten</li>
         <li>Jawa Tengah</li>
         <li>
-          <a href="https://wa.me/6281908746609" target="_blank" className="text-dark">
+          <a href="https://wa.me/6281908746609" target="_blank" className="text-dark" rel="noopener noreferrer">
             +62 8190 8746 619
           </a>
         </li>
         <li>
-          <a href="mailto:ythrifky619@gmail.com" target="_blank" className="text-dark">
+          <a href="mailto:ythrifky619@gmail.com" target="_blank" className="text-dark" rel="noopener noreferrer">
             ythrifky619@gmail.com
           </a>
         </li>

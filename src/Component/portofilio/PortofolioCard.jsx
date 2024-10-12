@@ -1,7 +1,5 @@
-import React from "react";
 import PortofolioDesc from "./PortofolioDesc";
 import PortofolioLinks from "./PortofolioLinks";
-import { portofolio } from "../../data/data";
 
 const PortofolioCard = ({ data }) => {
   return (

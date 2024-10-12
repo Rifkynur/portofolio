@@ -1,5 +1,3 @@
-import React from "react";
-
 const EmailLocation = ({ title, desc }) => {
   return (
     <div className="text-xs md:ms-2">

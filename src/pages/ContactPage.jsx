@@ -1,5 +1,5 @@
 import Title from "../util/Title";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 function ContactPage() {
   useEffect(() => {
@@ -12,7 +12,7 @@ function ContactPage() {
       <form
         action="https://formsubmit.co/ythrifky619@gmail.com"
         method="POST"
-        className="flex flex-col gap-3 shadow-[2px_2px_10px_#000] w-[80%] mx-auto mt-6 bg-secondary p-5 pb-10 rounded-lg dark:bg-slate-700 dark:shadow-[2px_2px_10px_#0079FF]"
+        className="flex flex-col gap-3 shadow-[2px_2px_10px_#000] w-[80%] mx-auto mt-6 bg-secondary p-5 pb-10 rounded-lg dark:bg-slate-700 dark:shadow-[2px_2px_10px_#0079FF] max-w-[900px]"
       >
         <h3 className="text-xs text-center font-bold md:text-lg">Contact Form</h3>
         <input type="email" name="email" placeholder="Email" className="p-2 text-xs rounded-md outline-none md:text-lg dark:bg-slate-600" required autoComplete="off" />
