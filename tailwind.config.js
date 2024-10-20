@@ -35,6 +35,9 @@ export default {
         darkShadowBig: "6px 4px 4px #0079FF ",
         darkShadowSmall: "3px 3px 3px #0079FF ",
       },
+      fontFamily: {
+        Poppins: ["Poppins", "sans-serif"],
+      },
     },
   },
   plugins: [],

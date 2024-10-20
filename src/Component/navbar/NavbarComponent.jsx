@@ -12,7 +12,6 @@ function NavbarComponent() {
     setDark(isDark);
     localStorage.setItem("theme", isDark ? "dark" : "light");
   };
-  // console.log(`state saat ini ${dark}`);
 
   useEffect(() => {
     const isSavedDark = localStorage.getItem("theme") === "dark";

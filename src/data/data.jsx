@@ -132,6 +132,7 @@ export const portofolio = [
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/dentist.jpg",
+    status: "deploy",
   },
   {
     id: 2,
@@ -142,6 +143,7 @@ export const portofolio = [
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/podcast.PNG",
+    status: "deploy",
   },
   {
     id: 2,
@@ -152,6 +154,7 @@ export const portofolio = [
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/porto.PNG",
+    status: "deploy",
   },
   {
     id: 3,
@@ -162,6 +165,7 @@ export const portofolio = [
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/binar.PNG",
+    status: "deploy",
   },
   {
     id: 4,
@@ -172,16 +176,29 @@ export const portofolio = [
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/cloneYt.PNG",
+    status: "deploy",
   },
   {
     id: 5,
     ghLink: "https://github.com/Rifkynur/shopping-cart",
     demoLink: "https://shopping-cart-coral-omega.vercel.app/",
-    title: "Clone Youtube",
+    title: "Shopping Cart",
     tool: ["React", "Tailwind", "Zustand"],
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/shoppingCart.PNG",
+    status: "deploy",
+  },
+  {
+    id: 6,
+    ghLink: "https://github.com/Rifkynur/vue-Job-listing",
+    demoLink: "",
+    title: "Vue Job Listings",
+    tool: ["Vue", "Tailwind", "json-server"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/vueJob.PNG",
+    status: "undeploy",
   },
 ];
 

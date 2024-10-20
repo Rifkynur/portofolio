@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,7 +9,7 @@
   --secondary: #9ca3af;
 }
 body {
-  @apply bg-[url('/img/bg-light-2.webp')] bg-cover bg-right md:bg-center dark:bg-[url('/img/bg-dark.webp')] dark:bg-center;
+  @apply bg-[url('/img/bg-light-2.webp')] bg-cover bg-right md:bg-center dark:bg-[url('/img/bg-dark.webp')] dark:bg-center font-Poppins;
 }
 .main-content {
   @apply bg-gray-300 w-full mt-2 rounded-lg text-black p-5 md:mt-4 animate-[fade-in_1s_ease-in-out] dark:bg-slate-800 dark:text-white dark:shadow-none;
