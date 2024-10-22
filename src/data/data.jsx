@@ -200,6 +200,17 @@ export const portofolio = [
     img: "./img/porto/vueJob.PNG",
     status: "undeploy",
   },
+  {
+    id: 7,
+    ghLink: "https://github.com/Rifkynur/shoppingCartVuePinia",
+    demoLink: "https://shopping-cart-vue-pinia.vercel.app/",
+    title: "Vue Shoppig Cart",
+    tool: ["Vue", "Tailwind", "Pinia"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/shoppingCartVue.PNG",
+    status: "deploy",
+  },
 ];
 
 // data skill
@@ -248,5 +259,10 @@ export const skill = [
     id: 9,
     title: "Next js",
     img: "./img/skill/svg/next.svg",
+  },
+  {
+    id: 10,
+    title: "Vue js",
+    img: "./img/skill/svg/vue.svg",
   },
 ];
