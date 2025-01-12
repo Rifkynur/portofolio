@@ -86,6 +86,11 @@ export const nonformalEducation = [
 // data experience
 export const experience = [
   {
+    school: "Doiscode Technology",
+    timeRange: "Sep 2024 - Des 2024",
+    desc: "Mobile App Using React Native",
+  },
+  {
     school: "Ragaku Studio",
     timeRange: "Jul 2024 - Sep 2024",
     desc: "Building Website Sokola Digital Using Next Js",
@@ -211,6 +216,17 @@ export const portofolio = [
     img: "./img/porto/shoppingCartVue.PNG",
     status: "deploy",
   },
+  {
+    id: 8,
+    ghLink: "https://github.com/Rifkynur/kas",
+    demoLink: "https://jimpitan-desa-pesu.vercel.app/",
+    title: "Dashboard Jimpitan",
+    tool: ["Vue", "Tailwind", "Pinia", "Express", "Prisma", "Supabase"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/jimpitan.PNG",
+    status: "deploy",
+  },
 ];
 
 // data skill
@@ -257,12 +273,42 @@ export const skill = [
   },
   {
     id: 9,
+    title: "redux",
+    img: "./img/skill/svg/redux.svg",
+  },
+  {
+    id: 10,
     title: "Next js",
     img: "./img/skill/svg/next.svg",
   },
   {
-    id: 10,
+    id: 11,
     title: "Vue js",
     img: "./img/skill/svg/vue.svg",
+  },
+  {
+    id: 12,
+    title: "express",
+    img: "./img/skill/svg/express.svg",
+  },
+  {
+    id: 13,
+    title: "mysql",
+    img: "./img/skill/svg/mysql.svg",
+  },
+  {
+    id: 13,
+    title: "git",
+    img: "./img/skill/svg/git.svg",
+  },
+  {
+    id: 14,
+    title: "figma",
+    img: "./img/skill/svg/figma.svg",
+  },
+  {
+    id: 15,
+    title: "vs code",
+    img: "./img/skill/svg/vccode.svg",
   },
 ];
