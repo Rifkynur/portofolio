@@ -15,7 +15,7 @@ const AboutFormaleducation = () => {
             return (
               <div className="relative bg-secondary rounded-md w-3/4 px-2 py-2 timeline md:w-full dark:bg-slate-600">
                 <h3 className="text-sm font-semibold  md:text-base">{data.school}</h3>
-                <p className="text-xs  md:text-base dark:text-slate-400">{data.timeRange}</p>
+                <p className="text-xs text-slate-700 md:text-base dark:text-slate-400">{data.timeRange}</p>
                 <p className="text-xs md:text-base lg:w-56 ">{data.desc}</p>
               </div>
             );

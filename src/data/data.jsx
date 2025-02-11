@@ -91,9 +91,9 @@ export const experience = [
     desc: "Mobile App Using React Native",
   },
   {
-    school: "Ragaku Studio",
-    timeRange: "Jul 2024 - Sep 2024",
-    desc: "Building Website Sokola Digital Using Next Js",
+    school: "Brandin Indonesia",
+    timeRange: "Agu 2024 - Sep 2024",
+    desc: "Building Website Using React JS",
   },
   {
     school: "Pt.Honda Prospect Motor",

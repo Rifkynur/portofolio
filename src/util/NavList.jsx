@@ -5,7 +5,7 @@ const NavList = ({ patch, icon, title }) => {
     <NavLink to={patch} className="hover:text-light transition-all rounded-lg dark:hover:text-dark md:w-[80%] ">
       <div className=" w-16 p-3 rounded-lg md:w-full flex flex-col items-center justify-center border border-slate-500 ">
         {icon}
-        <h4 className="text-xs mt-2 md:text-lg">{title}</h4>
+        <h4 className="text-xs font-medium mt-2 md:text-lg">{title}</h4>
       </div>
     </NavLink>
   );
