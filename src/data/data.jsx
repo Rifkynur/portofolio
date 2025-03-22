@@ -227,6 +227,17 @@ export const portofolio = [
     img: "./img/porto/jimpitan.PNG",
     status: "deploy",
   },
+  {
+    id: 9,
+    ghLink: "https://github.com/Rifkynur/rentCar",
+    // demoLink: "https://jimpitan-desa-pesu.vercel.app/",
+    title: "Rental Car",
+    tool: ["Laravel", "Bootstrap", "Livewire", "Sqlite"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/rentCar.PNG",
+    status: "undeploy",
+  },
 ];
 
 // data skill
