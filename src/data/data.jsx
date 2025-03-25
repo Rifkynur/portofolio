@@ -238,6 +238,17 @@ export const portofolio = [
     img: "./img/porto/rentCar.PNG",
     status: "undeploy",
   },
+  {
+    id: 10,
+    ghLink: "https://github.com/Rifkynur/traveleena",
+    demoLink: "https://traveleena-eight.vercel.app/",
+    title: "Traveleena",
+    tool: ["Next js", "Tailwind"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/traveleena.PNG",
+    status: "deploy",
+  },
 ];
 
 // data skill
