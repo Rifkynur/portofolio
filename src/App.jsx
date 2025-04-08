@@ -7,9 +7,14 @@ import SkillPage from "./pages/skillPage";
 import PortoPage from "./pages/PortoPage";
 import { Routes, Route } from "react-router-dom";
 import NotFound from "./pages/NotFound";
+import ReactGA from "react-ga4";
+import usePageTracking from "./util/usePageTracking";
 // import ThanksPage from "./pages/ThanksPage";
 
+ReactGA.initialize(import.meta.env.VITE_GA_MEASUREMENT_ID);
+
 function App() {
+  usePageTracking();
   return (
     <>
       <div className="min-h-screen flex flex-col justify-between">
