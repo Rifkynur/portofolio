@@ -14,7 +14,7 @@ function SkillPage() {
       <h3 className="text-sm w-full mt-5 lg:mt-10 font-semibold lg:text-base lg:py-2">Programming Language</h3>
       <div
         className="grid grid-cols-2 gap-5 text-center 
-      lg:grid-cols-3 lg:gap-12 lg:px-10 "
+      lg:grid-cols-3 lg:gap-y-12 lg:px-10 lg:justify-center"
       >
         <EachUtils
           of={skill.filter((item) => item.type == "programmingLanguage")}
