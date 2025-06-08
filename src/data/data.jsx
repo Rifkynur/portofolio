@@ -249,6 +249,17 @@ export const portofolio = [
     img: "./img/porto/traveleena.PNG",
     status: "deploy",
   },
+  {
+    id: 11,
+    ghLink: "https://github.com/Rifkynur/modena-course",
+    demoLink: "https://modena-course.vercel.app/",
+    title: "Modena Course",
+    tool: ["Next js", "Tailwind","Typescript","Shadcn UI"],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/modena-course.PNG",
+    status: "deploy",
+  },
 ];
 
 // data skill
