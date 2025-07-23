@@ -10,6 +10,7 @@ import NotFound from "./pages/NotFound";
 import ReactGA from "react-ga4";
 import usePageTracking from "./util/usePageTracking";
 // import ThanksPage from "./pages/ThanksPage";
+import ParticlesBackground from "./Component/ParticleBackground";
 
 ReactGA.initialize(import.meta.env.VITE_GA_MEASUREMENT_ID);
 
@@ -17,6 +18,7 @@ function App() {
   usePageTracking();
   return (
     <>
+      <ParticlesBackground />
       <div className="min-h-screen flex flex-col justify-between">
         <div className="max-w-[1324px] mx-auto  w-full">
           <HeaderComponent />
