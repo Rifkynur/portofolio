@@ -285,7 +285,7 @@ export const portofolio = [
     ],
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
-    img: "./img/porto/jimpitanNew.PNG",
+    img: "./img/porto/newJimpitan.PNG",
     status: "deploy",
   },
 ];
