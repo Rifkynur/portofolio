@@ -1,4 +1,12 @@
-import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaUser, FaTools, FaExternalLinkAlt } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaGithub,
+  FaUser,
+  FaTools,
+  FaExternalLinkAlt,
+} from "react-icons/fa";
 // import { FaUser, FaTools } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
 import { RiContactsBook2Fill } from "react-icons/ri";
@@ -19,7 +27,8 @@ export const headerSocial = [
   },
   {
     title: "Linkedin",
-    patch: "https://www.linkedin.com/in/rifky-nur-hidayat-26646b276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    patch:
+      "https://www.linkedin.com/in/rifky-nur-hidayat-26646b276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     target: "__blank",
     icon: <FaLinkedin />,
   },
@@ -216,17 +225,17 @@ export const portofolio = [
     img: "./img/porto/shoppingCartVue.PNG",
     status: "deploy",
   },
-  {
-    id: 8,
-    ghLink: "https://github.com/Rifkynur/kas",
-    demoLink: "https://jimpitan-desa-pesu.vercel.app/",
-    title: "Dashboard Jimpitan",
-    tool: ["Vue", "Tailwind", "Pinia", "Express", "Prisma", "Supabase"],
-    github: <FaGithub />,
-    goTo: <FaExternalLinkAlt />,
-    img: "./img/porto/jimpitan.PNG",
-    status: "deploy",
-  },
+  // {
+  //   id: 8,
+  //   ghLink: "https://github.com/Rifkynur/kas",
+  //   demoLink: "https://jimpitan-desa-pesu.vercel.app/",
+  //   title: "Dashboard Jimpitan",
+  //   tool: ["Vue", "Tailwind", "Pinia", "Express", "Prisma", "Supabase"],
+  //   github: <FaGithub />,
+  //   goTo: <FaExternalLinkAlt />,
+  //   img: "./img/porto/jimpitan.PNG",
+  //   status: "deploy",
+  // },
   {
     id: 9,
     ghLink: "https://github.com/Rifkynur/rentCar",
@@ -254,10 +263,29 @@ export const portofolio = [
     ghLink: "https://github.com/Rifkynur/modena-course",
     demoLink: "https://modena-course.vercel.app/",
     title: "Modena Course",
-    tool: ["Next js", "Tailwind","Typescript","Shadcn UI"],
+    tool: ["Next js", "Tailwind", "Typescript", "Shadcn UI"],
     github: <FaGithub />,
     goTo: <FaExternalLinkAlt />,
     img: "./img/porto/modena-course.PNG",
+    status: "deploy",
+  },
+  {
+    id: 12,
+    ghLink: "https://github.com/Rifkynur/jimpitan-desa-pesu",
+    demoLink: "https://jimpitan-desa-pesu-6fd6.vercel.app/",
+    title: "Jimpitan Desa Pesu",
+    tool: [
+      "Next js",
+      "Tailwind",
+      "Typescript",
+      "Shadcn UI",
+      "supabase",
+      "express",
+      "prisma",
+    ],
+    github: <FaGithub />,
+    goTo: <FaExternalLinkAlt />,
+    img: "./img/porto/jimpitanNew.PNG",
     status: "deploy",
   },
 ];
